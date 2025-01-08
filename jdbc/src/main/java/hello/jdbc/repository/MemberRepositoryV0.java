@@ -66,6 +66,7 @@ public class MemberRepositoryV0 {
 
     }
 
+
     private void close(Connection con, Statement stmt, ResultSet rs) {
 
         if (rs != null) {
