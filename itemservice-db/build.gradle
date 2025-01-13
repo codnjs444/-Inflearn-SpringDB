@@ -40,6 +40,9 @@ dependencies {
 	//테스트에서 lombok 사용
 	testCompileOnly 'org.projectlombok:lombok'
 	testAnnotationProcessor 'org.projectlombok:lombok'
+
+	//MyBatis 추가
+	implementation group: 'org.mybatis', name: 'mybatis', version: '3.5.19'
 }
 
 tasks.named('test') {
